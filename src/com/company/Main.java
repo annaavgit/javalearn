@@ -8,7 +8,7 @@ public class Main {
         // write your code here
         int a = 5;
         int b = 7;
-        int c = 2, d = 3;
+       // int c = 2, d = 3;
         System.out.println("Переменная а равна " + a + "\nПеременная b равна " + b
                 + "\nСумма a и b равна " + (a + b));
 
