@@ -40,11 +40,11 @@ public class Main {
         {
             System.out.println("Оценка: " + score + "\nТак себе фильм. На один раз");
         }
-        else if (score.equals("3"))
+        else if (score.equals("4"))
         {
             System.out.println("Оценка: " + score + "\nХороший фильм. Идея интересная");
         }
-        else if (score.equals("3"))
+        else if (score.equals("5"))
         {
             System.out.println("Оценка: " + score + "\nОтличный фильм! В личную копилку");
         }
