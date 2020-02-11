@@ -27,4 +27,6 @@ https://javarush.ru/groups/posts/equals-java-sravnenie-strok
   1
   Оценка: 1
   Отвратительный фильм. Смотреть не стоит`
+  
+  3 Переопределяем equal() для сравнения String ов
  
