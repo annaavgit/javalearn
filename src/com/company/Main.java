@@ -4,7 +4,9 @@ import java.awt.*;
 import java.util.Scanner;
 
 public class Main {
-
+    public boolean equals(String score) {
+        return this.toString() ==  score;
+    }
 
     public static void main(String[] args) {
         ifElseKino();
@@ -24,25 +26,25 @@ public class Main {
             score = in.nextLine();
         }
         //System.out.println("Вот оценка " + score);
-        int newVal = Integer.parseInt(score);
-        score = "1";
-        if (score == "1")
+
+
+        if (score.equals("1"))
         {
             System.out.println("Оценка: " + score + "\nОтвратительный фильм. Смотреть не стоит");
         }
-        else if (newVal == 2)
+        else if (score.equals("2"))
         {
             System.out.println("Оценка: " + score + "\nПлохой фильм. Зря потраченное время");
         }
-        else if (newVal == 3)
+        else if (score.equals("3"))
         {
             System.out.println("Оценка: " + score + "\nТак себе фильм. На один раз");
         }
-        else if (newVal == 4)
+        else if (score.equals("3"))
         {
             System.out.println("Оценка: " + score + "\nХороший фильм. Идея интересная");
         }
-        else if (newVal == 5)
+        else if (score.equals("3"))
         {
             System.out.println("Оценка: " + score + "\nОтличный фильм! В личную копилку");
         }
