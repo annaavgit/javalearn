@@ -15,7 +15,7 @@ public class Main {
         Scanner in = new Scanner(System.in);
         System.out.println("Введите оценку фильма (1-5), чтобы узнать рецензию: ");
         String score = in.nextLine();
-
+        score = "1";
 
         while (!(isInt(score)) || Integer.parseInt(score) > 5 || Integer.parseInt(score) < 1) {
             System.out.println("Вы ввели некорректную оценку: " + score
