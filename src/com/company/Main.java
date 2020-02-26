@@ -1,7 +1,5 @@
 package com.company; // базовый namespace - лучше задавать доменном-компании-наоборот
 
-import java.awt.*;
-
 public class Main {
 
     public static void main(String[] args) {
